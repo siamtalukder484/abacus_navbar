@@ -41,7 +41,7 @@ a{
     text-decoration: none;
 }
 .container{
-    width: 90%;
+    width: 1280px;
     margin: 0 auto;
 }
 .peragraph{
@@ -117,9 +117,7 @@ a{
 .footer_wrapper{
     padding: 95px 0;
     display: flex;
-}
-.footer_logo{
-    
+    justify-content: space-between;
 }
 .address_info{
     margin-top: 46px;
@@ -154,6 +152,10 @@ a{
     color: white;
     font-weight: 300;
 }
+.f_links_wrapper{
+    display: flex;
+    column-gap: 130px;
+}
 .f_title{
     font-size: 11px;
     font-weight: 500;
@@ -180,5 +182,24 @@ a{
     display: flex;
     flex-direction: column;
     row-gap: 22px;
+}
+.social_icon{
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+}
+.copyright_wrapper{
+    background: #1A1A1A;
+    padding: 28px 0;
+}
+.copyright_left{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.copyright_wrapper .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 /* ============== Footer End Here ================ */
