@@ -1,0 +1,104 @@
+
+/* ======= Termina Font Start ============= */
+@import url("https://p.typekit.net/p.css?s=1&k=emp5mvh&ht=tk&f=28965.28966.28971.28977.28982.28986.28991.28992.28993&a=39674420&app=typekit&e=css");
+@font-face {
+font-family:"termina";
+src:url("https://use.typekit.net/af/3a0b27/00000000000000007735b219/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/3a0b27/00000000000000007735b219/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/3a0b27/00000000000000007735b219/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+@font-face {
+font-family:"termina";
+src:url("https://use.typekit.net/af/1d76ab/00000000000000007735b21c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/1d76ab/00000000000000007735b21c/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/1d76ab/00000000000000007735b21c/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+@font-face {
+font-family:"termina";
+src:url("https://use.typekit.net/af/3e72b6/00000000000000007735b21e/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/3e72b6/00000000000000007735b21e/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/3e72b6/00000000000000007735b21e/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+@font-face {
+font-family:"termina";
+src:url("https://use.typekit.net/af/275a7d/00000000000000007735b220/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/275a7d/00000000000000007735b220/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/275a7d/00000000000000007735b220/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
+}
+@font-face {
+font-family:"termina";
+src:url("https://use.typekit.net/af/574117/00000000000000007735b222/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/574117/00000000000000007735b222/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/574117/00000000000000007735b222/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+.font-termina { font-family: "termina",sans-serif; }
+/* ======= Termina Font End ============= */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.navbar{
+    padding: 21px 0;
+    background-color: #000;
+}
+.nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_item a{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: normal;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    font-family: 'Termina', sans-serif;
+}
+.nav_item a::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -6px;
+    background: #6D6E70;
+    height: 1px;
+    width: 0;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+.nav_item a:hover:after{
+    width: 100%;
+}
+.menu_wrapper{
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+    align-items: center;
+}
+.action_wrapper{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.nav_action{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: normal;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Termina', sans-serif;
+}
+.nav_wrapper .line{
+    height: 20px;
+    width: 1px;
+    background-color: #B5AAA1;
+    display: inline-block;
+}
