@@ -7,4 +7,15 @@
         padding: 95px 0;
         flex-direction: column;
     }
+    .copyright_wrapper .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .copyright_left {
+        display: flex;
+        gap: 0px;
+        align-items: center;
+    }
 }
