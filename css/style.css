@@ -264,4 +264,32 @@ a{
 .getintouch{
     margin-top: 100px;
 }
+
+.f_title_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.arrowicon {
+    width: 16px;
+    height: 16px;
+    transition: transform 0.3s ease;
+}
+
+.arrowicon.rotate {
+    transform: rotate(90deg);
+}
+.footer_links {
+    display: none;
+    overflow: hidden; 
+}
+
+.footer_links.active {
+    display: block;
+}
+.footer_section_main{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr)); 
+}
 /* ============== Footer End Here ================ */
